@@ -1,0 +1,84 @@
+.loginContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginButton {
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  padding: 8px;
+  margin-top: 25px;
+  font-weight: 700;
+  background-color: #3b82f6;
+}
+.usernameLabel {
+  color: #5e5d5d;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.checkBoxElement {
+  color: #5e5d5d;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.inputElement {
+  margin-bottom: 5px;
+  border-radius: 3px;
+  margin-top: 3px;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  padding: 8px;
+  border-color: #837e7e;
+}
+.checkBox {
+  width: 25px;
+  height: 15px;
+  margin-left: 0px;
+}
+.checkBoxAndLabelContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 6px;
+  align-items: center;
+}
+
+.NxtWatch {
+  width: 200px;
+  margin-bottom: 25px;
+  align-self: center;
+}
+.formContainer {
+  border-radius: 3px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 2px #a8a4a4;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .formContainer {
+    width: 250px;
+  }
+  .NxtWatch {
+    width: 170px;
+  }
+}
+.errorMessageStyling {
+  color: #e44040;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}

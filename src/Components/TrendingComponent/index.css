@@ -1,0 +1,88 @@
+.navContainerForTrending {
+  background-color: rgb(77, 78, 87);
+  display: flex;
+  padding: none;
+  align-items: center;
+}
+.trendingIconStyling {
+  width: 100%;
+  height: 35px;
+  color: orangered;
+  text-align: center;
+}
+.successContainer {
+  background-color: black;
+  width: 100%;
+}
+.trendingHeading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.trendingFailureHeading {
+  font-size: 40px;
+}
+@media screen and (max-width: 576px) {
+  .trendingFailureHeading {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+.trendingCards {
+  padding-bottom: 15px;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .trendingCards {
+    padding-left: 0px;
+  }
+}
+.iconContainer {
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 40px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  align-items: center;
+  padding: 10px;
+}
+.loader-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.trendingFailureImageStyling {
+  height: 350px;
+  width: 400px;
+}
+
+@media screen and (max-width: 576px) {
+  .trendingFailureImageStyling {
+    width: 200px;
+    height: 250px;
+  }
+}
+.trendingFailurePara {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .trendingFailurePara {
+    text-align: center;
+  }
+}
+.trendingFinalFlexedContainer {
+  display: flex;
+}

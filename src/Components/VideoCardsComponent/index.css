@@ -1,0 +1,72 @@
+.videoCardBoxes {
+  width: 380px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 576px) {
+  .videoCardBoxes {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .videoCardBoxes {
+    width: 210px;
+  }
+}
+
+.homeRemovingStyles {
+  list-style-type: none;
+}
+.removeLinkDefaultStyling {
+  text-decoration: none;
+}
+.thumbnailImageUrlStyling {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.profileImageStyling {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+.titleStyling {
+  color: #4a4d4e;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.nameStyling {
+  color: #3c3c3d;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+.viewsAndPostContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.viewCount {
+  color: #3d3e3f;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+.publishedStyling {
+  color: #3c3c3d;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.combiningRemainingElements {
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}

@@ -1,0 +1,116 @@
+.trendingList {
+  list-style-type: none;
+}
+
+.eachTrendingCard {
+  background-color: yellow;
+  margin-bottom: 15px;
+  width: 1000px;
+  height: auto;
+  display: flex;
+  padding: 3px;
+}
+
+.trendingName {
+  color: #7a7979;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 578px) and (max-width: 992px) {
+  .eachTrendingCard {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .eachTrendingCard {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.trendingImageThumbnailStyling {
+  margin-right: 8px;
+  width: 450px;
+  height: 250px;
+}
+
+.mobileFlexedContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.trendingTitle {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .mobileFlexedContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+  .trendingName {
+    font-size: 16px;
+    padding-right: 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  .trendingImageThumbnailStyling {
+    width: 100%;
+    height: 180px;
+  }
+  .trendingTitle {
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+}
+
+.mobileAgainFlexed {
+  display: flex;
+  flex-direction: column;
+}
+.videoProfileStyling {
+  height: 30px;
+  width: 30px;
+  margin-right: 12px;
+}
+.titleProfileStyling {
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .videoProfileStyling {
+    display: block;
+    margin-top: 3px;
+  }
+}
+
+@media screen and (min-width: 578px) {
+  .videoProfileStyling {
+    display: none;
+  }
+}
+.trendingFlexedContainer {
+  display: flex;
+  margin-top: 0px;
+}
+.removeTrendingLinkItems {
+  text-decoration: none;
+}
+.trendingViewsCount {
+  color: #7a7979;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 15px;
+  font-family: 'Roboto';
+}
+.trendingPublishedCount {
+  color: #7a7979;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 15px;
+  font-family: 'Roboto';
+}

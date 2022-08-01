@@ -1,0 +1,82 @@
+.gaming-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.gamingNavContainer {
+  background-color: rgb(77, 78, 87);
+  display: flex;
+  padding: none;
+  align-items: center;
+}
+.removedInGamingComponent {
+  display: block;
+}
+
+@media screen and (max-width: 576px) {
+  .removedInGamingComponent {
+    display: none;
+  }
+}
+.gamingFailureImageStyling {
+  height: 350px;
+  width: 400px;
+}
+.gamingFinalContainer {
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .gamingFailureImageStyling {
+    width: 200px;
+    height: 250px;
+  }
+}
+.gamingIconContainer {
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  border-radius: 40px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.gamingUlContainer {
+  background-color: blueviolet;
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  padding-left: 35px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 576px) {
+  .gamingUlContainer {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .gamingUlContainer {
+    padding-left: 30px;
+  }
+}
+.gamingIconStyling {
+  width: 100%;
+  height: 35px;
+  color: orangered;
+  text-align: center;
+}
+.gamingHeading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}

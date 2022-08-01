@@ -1,0 +1,43 @@
+.gamingListItems {
+  list-style-type: none;
+}
+.eachGamingCard {
+  width: 270px;
+  height: auto;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .eachGamingCard {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .eachGamingCard {
+    width: 320px;
+  }
+}
+.gamingThumbnailUrlStyling {
+  width: 100%;
+  margin-bottom: 3px;
+}
+.gamingTitle {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.gamingViewCount {
+  color: #919394;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.gamingRemovingLinkingStyles {
+  text-decoration: none;
+}

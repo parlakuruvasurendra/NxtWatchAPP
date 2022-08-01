@@ -1,0 +1,251 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.homeContainer {
+  display: flex;
+}
+.failureImageStyling {
+  height: 300px;
+  width: 300px;
+  margin-right: 35px;
+}
+.closeIcon {
+  height: 30px;
+  width: 30px;
+}
+
+.nxtBannerLogo {
+  height: 40px;
+  width: 175px;
+}
+@media screen and (max-width: 576px) {
+  .failureImageStyling {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .failureImageStyling {
+    margin-top: 20px;
+    height: 170px;
+    width: 200px;
+    margin-bottom: 1px;
+  }
+}
+.failureContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.failureContainer2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.failureHeading {
+  font-size: 35px;
+  color: #38718a;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .failureHeading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.failureParagraph {
+  font-size: 28px;
+  color: #53585a;
+  margin-top: 0px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .failureParagraph {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}
+.retryButtonStyling {
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 700;
+  background-color: #3b82f6;
+}
+
+.homeUlContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .homeUlContainer {
+    padding-left: 0px;
+  }
+}
+
+.homeAnotherComponent {
+  display: none;
+}
+.inputAndSearchContainer {
+  background-color: transparent;
+  display: flex;
+  border-width: 1px;
+  width: 290px;
+  border-style: solid;
+  border-color: #919292;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .inputAndSearchContainer {
+    width: 100%;
+    border-color: transparent;
+  }
+}
+
+.beforeInnerContainer {
+  width: 100%;
+  background-color: #ebebeb;
+}
+.removingContainer {
+  display: block;
+}
+
+@media screen and (max-width: 576px) {
+  .removingContainer {
+    display: none;
+  }
+}
+
+.searchIconStyling {
+  height: 25px;
+  width: 25px;
+}
+.inputElement {
+  width: 250px;
+  padding: 8px;
+  border-width: 0px;
+  background-color: #e9eaeb;
+}
+@media screen and (max-width: 576px) {
+  .inputElement {
+    width: 270px;
+  }
+}
+.searchButton {
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #919292;
+  background-color: #e5e7e7;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+.noResultsHeading {
+  font-size: 35px;
+  color: #38718a;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .noResultsHeading {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .noResultsHeading {
+    font-size: 20px;
+  }
+}
+
+.noResultsParagraph {
+  font-size: 25px;
+  color: #0f2857;
+  margin-top: 3px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .noResultsParagraph {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .noResultsParagraph {
+    font-size: medium;
+  }
+}
+
+.noVideosImageStyling {
+  height: 250px;
+  width: 400px;
+}
+
+@media screen and (max-width: 576px) {
+  .noVideosImageStyling {
+    height: 200px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+  .noVideosImageStyling {
+    height: 200px;
+    margin-top: 40px;
+    width: 250px;
+  }
+}
+
+.noSearchContainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noSearchContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.removeLinkStyles {
+  text-decoration: none;
+}
